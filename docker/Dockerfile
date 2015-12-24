@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.3
 MAINTAINER Lee Verberne <lee@blarg.org>
 
 RUN apk add --update ca-certificates znc && rm -rf /var/cache/apk/*
