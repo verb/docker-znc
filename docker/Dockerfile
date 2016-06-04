@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:3.4
 MAINTAINER Lee Verberne <lee@blarg.org>
 
 RUN apk add --update \
